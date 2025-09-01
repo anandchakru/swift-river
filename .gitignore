@@ -1,0 +1,92 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Production builds
+build/
+dist/
+out/
+target/
+*.jar
+*.war
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Generated files
+ops-aws-wise-sunset/build/
+ops-aws-wise-sunset/dist/
+ops-aws-wise-sunset/target/
+ops-aws-wise-sunset/.env*
+ops-aws-wise-sunset/node_modules/
+backend-java-swift-storm/build/
+backend-java-swift-storm/dist/
+backend-java-swift-storm/target/
+backend-java-swift-storm/.env*
+backend-java-swift-storm/node_modules/
+frontend-react-smooth-island/build/
+frontend-react-smooth-island/dist/
+frontend-react-smooth-island/target/
+frontend-react-smooth-island/.env*
+frontend-react-smooth-island/node_modules/
+docs-readme-wise-dawn/build/
+docs-readme-wise-dawn/dist/
+docs-readme-wise-dawn/target/
+docs-readme-wise-dawn/.env*
+docs-readme-wise-dawn/node_modules/
+
+# Cloud and deployment
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

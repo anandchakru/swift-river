@@ -1,0 +1,50 @@
+{
+  "generator": "genesis2",
+  "version": "2.0.0",
+  "projectName": "swift-river",
+  "projectId": 37,
+  "genId": 37,
+  "domain": "rathnas.com",
+  "sld": "rathnas",
+  "tld": "com",
+  "owner": "anandchakru",
+  "repo": "swift-river",
+  "generatedAt": "2025-09-01T15:05:54.313Z",
+  "generatedBy": "genesis2-api",
+  "modules": [
+    {
+      "kind": "code",
+      "layer": "ops",
+      "type": "aws",
+      "name": "wise-sunset",
+      "region": "us-west-1"
+    },
+    {
+      "kind": "code",
+      "layer": "backend",
+      "type": "java",
+      "name": "swift-storm",
+      "region": "us-west-1"
+    },
+    {
+      "kind": "code",
+      "layer": "frontend",
+      "type": "react",
+      "name": "smooth-island",
+      "region": "us-west-1"
+    },
+    {
+      "kind": "code",
+      "layer": "docs",
+      "type": "readme",
+      "name": "wise-dawn",
+      "region": "us-west-1"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "license": "MIT",
+    "tags": [
+    ]
+  }
+}
